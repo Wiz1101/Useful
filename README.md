@@ -4,73 +4,71 @@
 **By:** Wiz1101  <br>
 
 
-<mark>**How to create a server with python:**</mark>
+**How to create a server with python:**
 
 ```
 sudo python3 -m http.server 8000
 ```
 
-**Other end (machine):**
+Other end (machine):
 
 ```
 localhost:8000
 ```
 
 
-<mark>Network quality command:</mark>
-
+**Network quality command:**
 ```
 $ networkquality
 ```
 
-<mark>WiFi:</mark>
+**WiFi:**
 
-**How to get the current connection paswsword:**
+How to get the current connection paswsword:
 
 ```
 $ security find-generic-password -wa [wifiname]
 ```
 
-<mark>IP:</mark>
+**IP:**
 
-**To see your public IP address in the Mac Terminal, type:**
+To see your public IP address in the Mac Terminal, type:
 
 ```
 $ curl ifconfig.me
 ```
 
-<mark>VPN:</mark>
+**VPN:**
 
-**how to run vpn:**
+how to run vpn:
 
 ```
 $ export PATH=$PATH:/usr/local/Cellar/openvpn/2.6.5/sbin
 $ openvpn
 ```
 
-<mark>Executable files</mark>
-
-**Path for exec files on mac:**
+**Executable files**
+Path for exec files on mac:
 
 ```
 /usr/local/bin
 ```
-<mark>Impacket .py files:</mark>
+**Impacket .py files:**
 
-**Path for impacket files on mac:**
+Path for impacket files on mac:
 
 ```
 .local/pipx/venvs/impacket/bin
 ```
 
-<mark>How to Encrypt/Decrypt Files:</mark>
+**How to Encrypt/Decrypt Files:**
 
-**Encrypt:**
+Encrypt:
 ```
 openssl enc -aes-256-cbc -e -in [path-to-file-you-want-to-encrypt] -out [path-to-where-the-encrypted-file-will-be-saved]
 ```
 
-**Decrypt:**
+Decrypt:
 ```
 openssl enc -aes-256-cbc -d -in [path-to-file-you-want-to-encrypt] -out [path-to-where-the-encrypted-file-will-be-saved]
 ```
