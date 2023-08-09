@@ -19,7 +19,7 @@ localhost:8000
 
 **Network quality command:**
 ```
-$ networkquality
+networkquality
 ```
 
 **WiFi:**
@@ -27,7 +27,7 @@ $ networkquality
 How to get the current connection paswsword:
 
 ```
-$ security find-generic-password -wa [wifiname]
+security find-generic-password -wa [wifiname]
 ```
 
 **IP:**
@@ -35,7 +35,7 @@ $ security find-generic-password -wa [wifiname]
 To see your public IP address in the Mac Terminal, type:
 
 ```
-$ curl ifconfig.me
+curl ifconfig.me
 ```
 
 **VPN:**
@@ -43,8 +43,8 @@ $ curl ifconfig.me
 how to run vpn:
 
 ```
-$ export PATH=$PATH:/usr/local/Cellar/openvpn/2.6.5/sbin
-$ openvpn
+export PATH=$PATH:/usr/local/Cellar/openvpn/2.6.5/sbin
+openvpn
 ```
 
 **Executable files**
