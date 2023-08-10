@@ -72,3 +72,11 @@ Decrypt:
 ```
 openssl enc -aes-256-cbc -d -in [path-to-file-you-want-to-encrypt] -out [path-to-where-the-encrypted-file-will-be-saved]
 ```
+
+
+**OpenSSH secure file copy**
+
+scp copies files between hosts on a network.
+```
+scp -i .ssh/[id_rsa] [filename] [username]@[IP]:/home/
+```
