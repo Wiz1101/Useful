@@ -80,3 +80,10 @@ scp copies files between hosts on a network.
 ```
 scp -i .ssh/[id_rsa] [filename] [username]@[IP]:/home/
 ```
+
+**How to access mysql**
+
+How to access mysql server on mac using command line:
+```
+mysql -u root -p 
+```
