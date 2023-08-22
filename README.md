@@ -93,3 +93,9 @@ mysql -u root -p
 ```
 tar -xzf filename.tar.gz
 ```
+
+**Extact the files**
+
+```
+tar -xzf filename.tar.gz
+```
