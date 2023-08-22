@@ -88,12 +88,6 @@ How to access mysql server on mac using command line:
 mysql -u root -p 
 ```
 
-**Extact the files **
-
-```
-tar -xzf filename.tar.gz
-```
-
 **Extact the files**
 
 ```
