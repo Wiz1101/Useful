@@ -92,4 +92,5 @@ mysql -u root -p
 
 ```
 tar -xzf filename.tar.gz
+gzip -d filename.gz
 ```
