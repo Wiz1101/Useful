@@ -85,8 +85,15 @@ scp -i .ssh/[id_rsa] [filename] [username]@[IP]:/home/
 
 How to access mysql server on mac using command line:
 ```
-mysql -u root -p 
+/usr/local/mysql/bin/mysql -u root -p 
 ```
+
+**How to get Default Port on mysql**
+   
+```
+mysql> SHOW GLOBAL VARIABLES LIKE 'PORT';
+```
+
 
 **Extact the files**
 
