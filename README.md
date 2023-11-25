@@ -65,12 +65,12 @@ Path for impacket files on mac:
 
 Encrypt:
 ```
-openssl enc -aes-256-cbc -e -in [path-to-file-you-want-to-encrypt] -out [path-to-where-the-encrypted-file-will-be-saved]
+openssl enc -aes-256-cbc -e -in [fileName] -out [fileName]
 ```
 
 Decrypt:
 ```
-openssl enc -aes-256-cbc -d -in [path-to-file-you-want-to-encrypt] -out [path-to-where-the-encrypted-file-will-be-saved]
+openssl enc -aes-256-cbc -d -in [fileName] -out [fileName]
 ```
 
 
