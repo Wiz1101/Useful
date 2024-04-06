@@ -111,5 +111,9 @@ sudo find -type f -name "FILE_NAME" 2>/dev/null
 **FFmPeg**
 
 ```
+.mkv -> .mp4
 ffmpeg -i "input.mkv" -c copy "output.mp4"
+
+.mp4 -> .gif
+ffmpeg -i sample.mp4 -filter_complex "[0:v] framestep=2,split [a][b];[a] palettegen=stats_mode=diff [p];[b][p] paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" output.gif
 ```
