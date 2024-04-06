@@ -108,7 +108,7 @@ gzip -d filename.gz
 sudo find -type f -name "FILE_NAME" 2>/dev/null
 ```
 
-**FFmPeg**
+**FFmpeg**
 
 ```
 .mkv -> .mp4
