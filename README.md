@@ -107,3 +107,9 @@ gzip -d filename.gz
 ```
 sudo find -type f -name "FILE_NAME" 2>/dev/null
 ```
+
+**FFmPeg**
+
+```
+ffmpeg -i "input.mkv" -c copy "output.mp4"
+```
