@@ -101,3 +101,9 @@ mysql> SHOW GLOBAL VARIABLES LIKE 'PORT';
 tar -xzf filename.tar.gz
 gzip -d filename.gz
 ```
+
+**Find the files**
+
+```
+sudo find -type f -name "FILE_NAME" 2>/dev/null
+```
